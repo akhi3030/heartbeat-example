@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "heartbeat-example": {
+      "build": "cargo build --target wasm32-unknown-unknown --package heartbeat-example --release",
+      "candid": "./heartbeat-example.did",
+      "wasm": "target/wasm32-unknown-unknown/release/heartbeat-example.wasm",
+      "type": "custom"
+    }
+   },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
