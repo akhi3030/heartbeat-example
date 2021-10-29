@@ -3,7 +3,7 @@
     "heartbeat-example": {
       "build": "cargo build --target wasm32-unknown-unknown --package heartbeat-example --release",
       "candid": "./heartbeat-example.did",
-      "wasm": "target/wasm32-unknown-unknown/release/heartbeat-example.wasm",
+      "wasm": "target/wasm32-unknown-unknown/release/heartbeat_example.wasm",
       "type": "custom"
     }
    },
